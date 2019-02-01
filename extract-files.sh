@@ -66,6 +66,14 @@ sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" $GOODIX
 
 BLOB_ROOT="$MK_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
+patchelf --remove-needed libandroid.so "$BLOB_ROOT"/vendor/lib/libmmcamera2_stats_modules.so
+patchelf --remove-needed libandroid.so "$BLOB_ROOT"/vendor/lib/libmpbase.so
+patchelf --remove-needed libandroid_runtime.so "$BLOB_ROOT"/vendor/bin/mlipayd@1.1
+patchelf --remove-needed libandroid_runtime.so "$BLOB_ROOT"/vendor/lib64/libmlipay.so
+patchelf --remove-needed libandroid_runtime.so "$BLOB_ROOT"/vendor/lib64/libmlipay@1.1.so
+patchelf --remove-needed libgui.so "$BLOB_ROOT"/vendor/lib/libmmcamera_ppeiscore.so
+patchelf --remove-needed libgui.so "$BLOB_ROOT"/vendor/lib/libmmcamera2_stats_modules.so
+patchelf --remove-needed libmedia.so "$BLOB_ROOT"/vendor/lib64/lib-dplmedia.so
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/bin/mlipayd@1.1
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/lib64/libmlipay.so
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/lib64/libmlipay@1.1.so
