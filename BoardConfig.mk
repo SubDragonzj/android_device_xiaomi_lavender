@@ -253,6 +253,10 @@ TARGET_USES_MKE2FS := true
 TARGET_INIT_VENDOR_LIB := libinit_lavender
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lavender
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
