@@ -413,10 +413,7 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
 # VNDK
-PRODUCT_PACKAGES += \
-    libstdc++.vendor \
-    vndk-ext \
-    vndk_package
+PRODUCT_PACKAGES += vndk-sp
 
 # Wifi
 PRODUCT_PACKAGES += \
