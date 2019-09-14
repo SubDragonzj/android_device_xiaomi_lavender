@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
 PRODUCT_NAME := mk_lavender
 PRODUCT_BRAND := Xiaomi
