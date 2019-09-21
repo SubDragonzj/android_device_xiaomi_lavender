@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
-PRODUCT_NAME := mk_lavender
+PRODUCT_NAME := mokee_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
