@@ -215,7 +215,9 @@ ro.audio.soundfx.dirac=true
 
 #system prop for Bluetooth SOC type
 vendor.bluetooth.soc=cherokee
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.btstack.enable.splita2dp=true
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-aac
+persist.vendor.btstack.avrcp-playstatus.blacklist=true
 
 # Property for backup NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
