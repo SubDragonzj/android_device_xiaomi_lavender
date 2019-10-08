@@ -399,7 +399,8 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package
+    vndk_package \
+    libgui_vendor
 
 # Wifi
 PRODUCT_PACKAGES += \
