@@ -54,7 +54,6 @@ vendor/lib/libSonyIMX376C3RmscLibrary.so
 vendor/lib/libSonyIMX376KRmscLibrary.so
 vendor/lib/libbase64.so
 vendor/lib/libmegface.so
-vendor/lib/libstdc++.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libscveBlobDescriptor.so
 vendor/lib64/libscveBlobDescriptor_stub.so
