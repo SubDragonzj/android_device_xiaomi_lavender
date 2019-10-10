@@ -474,14 +474,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mokee.power</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMoKeePower</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mokee.trust</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
