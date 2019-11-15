@@ -204,7 +204,7 @@ PRODUCT_PACKAGES += \
 
 # fwk-detect
 PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect
+    libqti_vndfwk_detect.vendor
 
 # GPS
 PRODUCT_COPY_FILES += \
