@@ -1,7 +1,11 @@
 package org.ifaa.android.manager;
 
-public abstract class IFAAManagerV4 extends IFAAManagerV3 {
-    public abstract int getEnabled(int i);
+import android.annotation.UnsupportedAppUsage;
 
-    public abstract int[] getIDList(int i);
+public abstract class IFAAManagerV4 extends IFAAManagerV3 {
+    @UnsupportedAppUsage
+    public abstract int getEnabled(int bioType);
+
+    @UnsupportedAppUsage
+    public abstract int[] getIDList(int bioType);
 }
