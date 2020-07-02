@@ -298,9 +298,6 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|34c82a9ff2f67915c3986f53103971b32039585
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|ddc519c869326a00264444cf960cef4a5deca599
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|f8818a9827d40ad2c562d8e29a5e3949d985b852
 
--lib/libbtconfigstore.so|a7e2f2d8f9e68754223ce6cb51f16260e4f03039
--lib64/libbtconfigstore.so|a342bed0c999bd0c5624da2ce9a8ca60475d53e9
-
 # Gatekeeper
 vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
